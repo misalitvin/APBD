@@ -1,15 +1,12 @@
 ﻿
 
-static int MaxArg(int[] array)
+static int AveArr(int[] array)
 {
-    int max = array[0];
+    int sum = 0;
     for(int i = 0;i<array.Length;i++)
     {
-        if (array[i] > max)
-        {
-            max = array[i];  
-        }
+        sum += array[i];
     }
 
-    return max;
+    return sum/array.Length;
 }
