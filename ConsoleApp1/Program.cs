@@ -7,7 +7,7 @@ static int MaxArg(int[] array)
     {
         if (array[i] > max)
         {
-            max = array[i];
+            max = array[i]; 
         }
     }
 
