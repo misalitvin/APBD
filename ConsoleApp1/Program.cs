@@ -3,9 +3,9 @@
 static int AveArr(int[] array)
 {
     int sum = 0;
-    for(int i = 0;i<array.Length;i++)
+    for(int k = 0;k<array.Length;k++)
     {
-        sum += array[i];
+        sum += array[k];
     }
 
     return sum/array.Length;
